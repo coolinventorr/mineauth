@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}MineAuth{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <main>
+        {% block content %}
+        
+         
+        {% endblock %}
+        <div class="footer-links">
+            <a class="link" href="/">Home</a> |
+            <a class="link" href="/terms">Terms of Service</a> | 
+            <a class="link" href="/privacy">Privacy Policy</a> |
+            <a class="link" href="/dashboard">Dashboard</a>
+        </div>
+        <p class="disclaimer">{{ commit }}</p>
+        <p class="disclaimer">Not an official Minecraft service. Not approved by or associated with Mojang or Microsoft</p>
+        <p class="disclaimer">Copyright © 2025 MineAuth. All rights reserved.</p>
+    </main>
+    
+</body>
+</html>
