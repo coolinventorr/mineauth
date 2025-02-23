@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineAuth</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/app.png') }}" type="image/png">
+</head>
+<body>
+    <div class="main">
+        <img src="{{ url_for('static', filename='images/iconfull.png') }}" class="logo" alt="MineAuth Logo" width="100" height="100">
+        <h1>Error {{ error }}</h1>
+        
+      
+        <div class="footer-links">
+            <a class="link" href="/">Home</a> |
+            <a class="link" href="/terms">Terms of Service</a> | 
+            <a class="link" href="/privacy">Privacy Policy</a>
+        </div>
+        <p class="disclaimer">Not an official minecraft service. Not approved by or associated with Mojang or Microsoft</p>
+        <p class="disclaimer">Copyright © 2025 MineAuth. All rights reserved.</p>
+    </div>
+</body>
+</html>
