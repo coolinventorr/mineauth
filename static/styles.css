@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.main {
+    position: absolute;
+    left: 200px;
+    top: 130px;
+}
+
+.logo {
+    margin-bottom: -10px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.download-btn {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 5px;
+    font-size: 13px;
+    font-weight: normal;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+.footer-links {
+    margin-top: 210px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF; /* White color for normal state */
+}
+
+.link:visited {
+    color: #FFFFFF; /* White color even after the link is visited */
+}
+
+.link:hover {
+    color: #CCCCCC; /* Light gray on hover */
+}
+
+.link:active {
+    color: #AAAAAA; /* Darker gray when clicked */
+}
+
+
+
+.link1 {
+    color: #FFFFFF; /* White color for normal state */
+}
+
+.link1:visited {
+    color: #FFFFFF; /* White color even after the link is visited */
+}
+
+.link1:hover {
+    color: #CCCCCC; /* Light gray on hover */
+}
+
+.link1:active {
+    color: #AAAAAA; /* Darker gray when clicked */
+}
+
+.footer-links-legal {
+    margin-top: 1px;
+}
+
+.main-legal {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    
+}
+
+h2 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.p2 {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.disclaimer {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 0.9;
+}
+
+.hh {
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin-top: -30px;
+}
+
+.easy {
+    border-radius: 22px;
+}
